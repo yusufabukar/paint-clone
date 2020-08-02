@@ -186,7 +186,7 @@ clearStorageButton.addEventListener('click', () => {
 downloadButton.addEventListener('click', () => {
 	downloadButton.setAttribute('href', canvas.toDataURL('image/jpeg', 1));
 	let date = new Date();
-	downloadButton.setAttribute('download', `Painting ${date.toString().slice(16, 24).replace(':', '').replace(':', '')} ${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()} (GitHub | YusufAbukar|  PaintClone)`);
+	downloadButton.setAttribute('download', `Painting ${date.toString().slice(16, 24).replace(':', '').replace(':', '')} ${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()} (GitHub | YusufAbukar | PaintClone)`);
 	activeToolElement.textContent = 'Image File Saved';
 	brushTimeSetTimeout(BRUSH_TIME);
 });
