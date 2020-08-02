@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Paint Clone</title>
+        <link rel='icon' type='image/png' href='favicon.png'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'/>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <!-- Tool Bar -->
+        <div class='top-bar'>
+            <!-- Active Tool -->
+            <div class='active-tool'>
+                <span id='active-tool' title='Active Tool'>Brush</span>
+            </div>
+            <!-- Brush -->
+            <div class='brush tool'>
+                <i id='brush' class='fas fa-brush' title='Brush'></i>
+                <input id='brush-colour' class='jscolor' value='A51DAB'>
+                <span id='brush-size' class='size' title='Brush Size'>10</span>
+                <input id='brush-slider' class='slider' type='range' min='1' max='50' value='10'>
+            </div>
+            <!-- Bucket -->
+            <div class='bucket tool'>
+                <i class='fas fa-fill-drip' title='Background Colour'></i>
+                <input id='bucket-colour' class='jscolor' value='FFFFFF'>
+            </div>
+            <!-- Eraser -->
+            <div class='tool'>
+                <i id='eraser' class='fas fa-eraser' title='Eraser'></i>
+            </div>
+            <!-- Clear Canvas -->
+            <div class='tool'>
+                <i id='clear-canvas' class='fas fa-undo-alt' title='Clear'></i>
+            </div>
+            <!-- Save Local Storage -->
+            <div class='tool'>
+                <i id='save-storage' class='fas fa-download' title='Save Local Storage'></i>
+            </div>
+            <!-- Load Local Storage -->
+            <div class='tool'>
+                <i id='load-storage' class='fas fa-upload' title='Load Local Storage'></i>
+            </div>
+            <!-- Clear Local Storage -->
+            <div class='tool'>
+                <i id='clear-storage' class='fas fa-trash-alt' title='Clear Local Storage'></i>
+            </div>
+            <!-- Download Image -->
+            <div class='tool'>
+                <a id='download'>
+                    <i class='far fa-save' title='Save Image File'></i>
+                </a>
+            </div>
+        </div>
+        <div class='mobile-message'>
+            <h2>Please use this appication on a larger screen! <i class="far fa-grimace"></i></h2>
+        </div>
+        <script src='jscolor.js'></script>
+        <script src='script.js'></script>
+    </body>
+</html>
