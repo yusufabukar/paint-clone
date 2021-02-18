@@ -1,5 +1,10 @@
 # Paint Clone
-* Transport yourself back to the 90s and 00s, unleash your inner Picasso, and create a masterpiece (at least according to your Mum)!
-* Save your canvas locally and load it later when you are ready to finish it, or clear it altogether if you need to start again.
-* Download your painting once you are done; perhaps you could sell it for millions...*
-* \* There is no guarantee that your creation will sell for anything.
+
+* Transport yourself back to the 90s and 00s, and have fun with this Microsoft Paint clone.
+* Save your canvas locally and load it later when you are ready to finish it, or clear it altogether if you need to start again, and download it once complete.
+
+## Stack
+
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
